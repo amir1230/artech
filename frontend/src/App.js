@@ -53,7 +53,7 @@ const App = () => {
         >
           <Wrapper>
             <a
-              href="https://api.whatsapp.com/send?phone=+923245971343&text=Amir!"
+              href="https://api.whatsapp.com/send?phone=+923368815559&text=Rizwan!"
               class="whatsapp-button"
               target="_blank"
               rel="noreferrer"
