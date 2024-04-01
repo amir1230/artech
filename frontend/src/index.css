@@ -1,0 +1,16 @@
+@import url("https://fonts.googleapis.com/css2?family=Tinos&display=swap");
+@font-face {
+  font-family: "Gilroy-Light.eot";
+  src: url("./fonts//Gilroy-Light.otf") format("truetype");
+}
+@font-face {
+  font-family: "Gilroy-ExtraBold.eot";
+  src: url("./fonts//Gilroy-ExtraBold.otf") format("truetype");
+}
+body {
+  font-family: "Urbanist", sans-serif;
+  overflow-x: hidden;
+}
+:root {
+  --primary-color: #16a092;
+}
