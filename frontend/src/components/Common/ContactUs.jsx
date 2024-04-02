@@ -142,7 +142,7 @@ const ContactUs = () => {
           transition={
             (isResponsiveHighest && ".2s") || (isResponsiveNormal && "0.3s")
           }
-          className="container align-items-center justify-content-center"
+          className="container  justify-content-center"
           style={{
             // gridGap: isResponsiveNormal ? "2rem" : "2rem",
             // gridTemplateColumns: isResponsiveLow ? "1fr" : " repeat(2, 2fr)",
@@ -156,7 +156,7 @@ const ContactUs = () => {
               color="aliceblue"
               mb="20px"
             >
-              Contact <span>us</span>
+              Contact <span>Us</span>
             </H1>
             <P
               mb="2.2rem"
@@ -205,7 +205,7 @@ const ContactUs = () => {
                 required
               ></TextAreaStyle>
               <PrimaryBtn
-                data-aos="zoom-in"
+                // data-aos="zoom-in"
                 hoverBg="transparent"
                 hoverTransform="scale(1.1)"
                 bg={loading ? "transparent" : "#16a092"}
