@@ -149,7 +149,7 @@ const ContactUs = () => {
           }}
         >
           <Wrapper style={{ order: isResponsiveLow && 2 }}>
-            <H1
+            {/* <H1
               weight="bold"
               ls="2px"
               size={"32px"}
@@ -157,7 +157,7 @@ const ContactUs = () => {
               mb="20px"
             >
               Contact <span>Us</span>
-            </H1>
+            </H1> */}
             <P
               mb="2.2rem"
               ls="0.5px"
