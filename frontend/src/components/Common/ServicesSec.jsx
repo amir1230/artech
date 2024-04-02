@@ -54,7 +54,7 @@ const ServicesSec = (props) => {
               </Wrapper>
             </>
           )}
-          {/* <Wrapper className="d-flex flex-wrap">
+          <Wrapper className="d-flex flex-wrap">
             {props.data.map((val, index) => {
               return (
                 <>
@@ -86,8 +86,8 @@ const ServicesSec = (props) => {
                     width={!isResponsive && !isResponsiveMore && "100%"}
                     p="0 1em 0 1em"
                     className="text-center"
-                  > */}
-                    {/* <Card>
+                  > 
+                     <Card>
                       {props.page === "contact" ? (
                         <>
                           <H2
@@ -168,12 +168,12 @@ const ServicesSec = (props) => {
                           </P>
                         </>
                       )}
-                    </Card> */}
-                  {/* </Wrapper>
+                    </Card>
+                   </Wrapper>
                 </>
               );
-            })} */}
-          {/* </Wrapper> */}
+            })}
+           </Wrapper> 
         </Wrapper>
       </SectionStyle>
     </>
