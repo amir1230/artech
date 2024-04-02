@@ -16,13 +16,13 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/AbdulWahabRaza0/techWebsite.git"
+    "url": "git+https://github.com/amir1230/artech.git"
   },
-  "author": "Abdul Wahab raza",
+  "author": "Amir Sohail",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/AbdulWahabRaza0/techWebsite/issues"
+    "url": "https://github.com/amir1230/artech/issues"
   },
-  "homepage": "https://github.com/AbdulWahabRaza0/techWebsite#readme",
+  "homepage": "https://github.com/amir1230/artech#readme",
   "description": ""
 }

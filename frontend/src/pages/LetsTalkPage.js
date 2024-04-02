@@ -6,26 +6,26 @@ import { H1, P } from "../components/Typography";
 import ServicesSec from "../components/Common/ServicesSec";
 import lunch from "../assets/lunch.png";
 import { useNavigate } from "react-router-dom";
-const ContactData = [
-  {
-    title: "FAQS",
-    desc: "Lorem ipsum dolor, sit amet consectetur adipisicing elit. consectetur adipisicing elit. Lorem ipsum dolor, sit amet  sit amet",
-    src: lunch,
-    help: "Help center",
-  },
-  {
-    title: "FAQS",
-    desc: "Lorem ipsum dolor, sit amet consectetur adipisicing elit. consectetur adipisicing elit. Lorem ipsum dolor, sit amet  sit amet",
-    src: lunch,
-    help: "Help center",
-  },
-  {
-    title: "FAQS",
-    desc: "Lorem ipsum dolor, sit amet consectetur adipisicing elit. consectetur adipisicing elit. Lorem ipsum dolor, sit amet  sit amet",
-    src: lunch,
-    help: "Help center",
-  },
-];
+// const ContactData = [
+//   {
+//     title: "FAQS",
+//     desc: "Lorem ipsum dolor, sit amet consectetur adipisicing elit. consectetur adipisicing elit. Lorem ipsum dolor, sit amet  sit amet",
+//     src: lunch,
+//     help: "Help center",
+//   },
+//   {
+//     title: "FAQS",
+//     desc: "Lorem ipsum dolor, sit amet consectetur adipisicing elit. consectetur adipisicing elit. Lorem ipsum dolor, sit amet  sit amet",
+//     src: lunch,
+//     help: "Help center",
+//   },
+//   {
+//     title: "FAQS",
+//     desc: "Lorem ipsum dolor, sit amet consectetur adipisicing elit. consectetur adipisicing elit. Lorem ipsum dolor, sit amet  sit amet",
+//     src: lunch,
+//     help: "Help center",
+//   },
+// ];
 const LetsTalkPage = () => {
   const history = useNavigate();
   useEffect(() => {
@@ -64,7 +64,7 @@ const LetsTalkPage = () => {
             </div>
           </Wrapper>
         </Wrapper>
-        <ServicesSec data={ContactData} heading={false} page="contact" />
+        <ServicesSec  heading={false} page="contact" />
         <AboutContact />
         <ContactUs />
       </Wrapper>
