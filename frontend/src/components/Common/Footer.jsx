@@ -164,12 +164,12 @@ const ContactData = [
     icon: "far fa-envelope-open",
   },
 ];
-const FooterSocialIcons = [
-  "fa-brands fa-facebook-f",
-  "fa-brands fa-twitter",
-  "fa-brands fa-instagram",
-  "fa-brands fa-youtube",
-];
+// const FooterSocialIcons = [
+//   "fa-brands fa-facebook-f",
+//   "fa-brands fa-twitter",
+//   "fa-brands fa-instagram",
+//   "fa-brands fa-youtube",
+// ];
 const LinksData = [
   "Our Team",
   "About Us",
@@ -248,7 +248,7 @@ const Footer = () => {
                   {!isResponsive && (
                     <>
                       <div className="footer-logo">
-                        <a href="index.html">
+                        <a href="/">
                           <img
                             src={tech}
                             className="img-fluid"
@@ -276,7 +276,7 @@ const Footer = () => {
                       digital transformation journey together.{" "}
                     </P>
                   </div> */}
-                  <div className="footer-social-icon">
+                  {/* <div className="footer-social-icon">
                     <H3Extra className="position-relative">Follow us</H3Extra>
                     <ul className="d-flex text-start mt-3">
                       {FooterSocialIcons.map((val, index) => {
@@ -291,7 +291,7 @@ const Footer = () => {
                         );
                       })}
                     </ul>
-                  </div>
+                  </div> */}
                 </div>
               </Col>
               <Col xl={6} lg={6} md={6} className="mb-3">
