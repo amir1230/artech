@@ -22,7 +22,7 @@ import { Wrapper } from "../components/Layouts";
 import { H2 } from "../components/Typography";
 import { useNavigate } from "react-router-dom";
 const IndustryData = [
-  { src: banking, title: "Banking" },
+  { src: banking, title: "POS Softwares" },
 
   { src: binance, title: "Markets" },
   {
@@ -40,11 +40,11 @@ const ServiceCardsData = [
   {
     src: blockchain,
     title: "Digital Marketing",
-    desc: "Empower your business with secure and transparent decentralized solutions for seamless transaction management.",
+    desc: "Empower your digital marketing efforts with innovative strategies: Elevate brand visibility, engagement, and conversions for unparalleled success.",
   },
   {
     src: ai,
-    title: "Artificial Intelligence",
+    title: "AI & Data Science",
     desc: "Utilize advanced artificial intelligence algorithms and machine learning models to extract valuable insights.",
   },
   {
@@ -54,8 +54,8 @@ const ServiceCardsData = [
   },
   {
     src: datasci,
-    title: "Data Science",
-    desc: "Extract meaningful insights from data using advanced analytics techniques, driving informed decision-making and business growth.",
+    title: "Shopify & WordPress",
+    desc: "Leverage advanced analytics techniques to derive valuable insights, empowering strategic decision-making and fostering business expansion on Shopify and WordPress platforms.",
   },
   {
     src: ecommerce,
@@ -65,7 +65,7 @@ const ServiceCardsData = [
   {
     src: iot,
     title: "App Development",
-    desc: "Connect and control devices seamlessly, enabling smarter operations and unlocking new possibilities for automation.",
+    desc: "Facilitate seamless connectivity and control within your app, optimizing operations and enhancing user experiences.",
   },
 ];
 
@@ -94,7 +94,7 @@ const Home = () => {
             Industries we serves
           </Wrapper>
           <H2 ls="2px" weight="600" className="text-white" size="31px">
-            Managed IT Services customized for your industry
+            Developing Customized IT Softwares for your Industry
           </H2>
         </Wrapper>
         <IndustriesCard data={IndustryData} />

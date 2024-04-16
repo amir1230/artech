@@ -19,7 +19,7 @@ const ServiceCardsData = [
   },
   {
     src: ai,
-    title: "Artificial Intelligence & Data Science",
+    title: "AI & Data Science",
     desc: "Utilize advanced artificial intelligence algorithms and machine learning models to extract valuable insights.",
   },
   {
@@ -29,8 +29,8 @@ const ServiceCardsData = [
   },
   {
     src: datasci,
-    title: "Data Science",
-    desc: "Extract meaningful insights from data using advanced analytics techniques, driving informed decision-making and business growth.",
+    title: "Shopify & WordPress",
+    desc: "Leverage advanced analytics techniques to derive valuable insights, empowering strategic decision-making and fostering business expansion on Shopify and WordPress platforms.",
   },
   {
     src: ecommerce,
@@ -40,7 +40,7 @@ const ServiceCardsData = [
   {
     src: iot,
     title: "App Development",
-    desc: "Connect and control devices seamlessly, enabling smarter operations and unlocking new possibilities for automation.",
+    desc: "Facilitate seamless connectivity and control within your app, optimizing operations and enhancing user experiences.",
   },
 ];
 const ServicesPage = () => {

@@ -1,8 +1,8 @@
 import styled from "styled-components";
 const HeaderBtn = styled.button`
-  color: ${(props) => (props.scrollBtn ? "#16a092" : "white")};
+  color: ${(props) => (props.scrollBtn ? "black" : "white")};
   border: ${(props) =>
-    props.scrollBtn ? "2px solid #16a092" : "2px solid white"};
+    props.scrollBtn ? "2px solid #fff" : "2px solid white"};
   font-weight: bold;
   background: transparent;
   font-size: 16px;
@@ -12,8 +12,8 @@ const HeaderBtn = styled.button`
   transition: 0.6s ease-in-out;
 
   &:hover {
-    background: ${(props) => (props.scrollBtn ? "#16a092" : "white")};
-    color: ${(props) => (props.scrollBtn ? "white" : "black")};
+    background: ${(props) => (props.scrollBtn ? "transparent" : "white")};
+    color: ${(props) => (props.scrollBtn ? "black" : "black")};
     font-weight: bold;
   }
 `;
