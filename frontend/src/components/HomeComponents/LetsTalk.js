@@ -7,7 +7,7 @@ const LetsTalk = () => {
     <Wrapper bg="#000">
       <Wrapper pt="5rem" pb="5rem" className="container">
         <Wrapper
-          color="#16a092"
+          color="#fff"
           weight="bold"
           ls="3px"
           className="text-center fs-1"

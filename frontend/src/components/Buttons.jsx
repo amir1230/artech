@@ -21,7 +21,7 @@ const PrimaryBtn = styled.button`
   background: ${(props) => (props.bg ? props.bg : "transparent")};
   margin-top: 25px;
   transition: 0.4s ease-in-out;
-  border: 2px solid #16a092;
+  border: 2px solid #fff;
   font-size: 16px;
   width: ${(props) => (props.width ? props.width : "")};
   padding: ${(props) => (props.p ? props.p : "")};

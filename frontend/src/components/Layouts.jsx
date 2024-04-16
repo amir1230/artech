@@ -73,7 +73,7 @@ const Card = styled.div`
   height: 100%;
   padding: 2em 1.5em;
   background: transparent;
-  border: 3px solid #16a092;
+  border: 3px solid #fff;
   background-size: 100% 200%;
   background-position: 0 2.5%;
   border-radius: 5px;

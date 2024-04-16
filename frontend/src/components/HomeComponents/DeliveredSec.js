@@ -7,7 +7,7 @@ import { useMediaQuery } from "../Layouts";
 import { H3 } from "../Typography";
 import styled from "styled-components";
 const SectionDel = styled.section`
-  background: linear-gradient(177deg, rgb(0, 0, 0) 40%, rgb(10, 83, 83) 100%);
+background: linear-gradient(177deg, rgb(0, 0, 0) 40%, rgb(26 26 26) 100%);
   color: #fff;
   padding-top: 120px;
   padding-bottom: 40px;

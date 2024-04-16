@@ -9,7 +9,7 @@ import { toast } from "react-toastify";
 const ContactSection = styled.section`
   display: grid;
   place-items: center;
-  background: linear-gradient(177deg, rgb(0, 0, 0) 40%, rgb(10, 83, 83) 100%);
+  background: linear-gradient(177deg, rgb(0, 0, 0) 40%, rgb(46 46 46) 100%);
 `;
 const ContactFormStyle = styled.div`
   height: 100%;
@@ -208,10 +208,10 @@ const ContactUs = () => {
                 // data-aos="zoom-in"
                 hoverBg="transparent"
                 hoverTransform="scale(1.1)"
-                bg={loading ? "transparent" : "#16a092"}
+                bg={loading ? "transparent" : "transparent"}
                 weight="700"
                 className={`btn btn-simision text-white ps-5 pe-5 mb-3 mt-2 `}
-                style={{ border: "1px solid #16a092" }}
+                style={{ border: "1px solid #fff" }}
                 onClick={SubmitHandler}
               >
                 {loading ? "..." : "Submit"}

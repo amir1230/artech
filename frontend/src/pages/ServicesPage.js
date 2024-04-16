@@ -14,12 +14,12 @@ import { useNavigate } from "react-router-dom";
 const ServiceCardsData = [
   {
     src: blockchain,
-    title: "Blockchain Web3",
-    desc: "Empower your business with secure and transparent decentralized solutions for seamless transaction management.",
+    title: "Digital Marketing",
+    desc: "Empower your digital marketing efforts with innovative strategies: Elevate brand visibility, engagement, and conversions for unparalleled success.",
   },
   {
     src: ai,
-    title: "Artificial Intelligence",
+    title: "Artificial Intelligence & Data Science",
     desc: "Utilize advanced artificial intelligence algorithms and machine learning models to extract valuable insights.",
   },
   {
@@ -39,7 +39,7 @@ const ServiceCardsData = [
   },
   {
     src: iot,
-    title: "Internet of things",
+    title: "App Development",
     desc: "Connect and control devices seamlessly, enabling smarter operations and unlocking new possibilities for automation.",
   },
 ];

@@ -36,7 +36,7 @@ const Details = (props) => {
             )}
             <Wrapper
               size="32px"
-              color="#16a092"
+              color="#fff"
               weight="600"
               className={isResponsive && "text-center"}
             >
@@ -52,8 +52,7 @@ const Details = (props) => {
                   <SpanWrapper size="19px" className="fw-bold">
                     Web applications , Cross-Platform Applications ,
                     Decentralized Applications (DApps) , Artificial Intelligence
-                    (AI) and Machine Learning (ML) Solutions , and more. &nbsp;
-                    &nbsp;|&nbsp;&nbsp; Since 2017
+                    (AI) and Machine Learning (ML) Solutions , and more
                   </SpanWrapper>
                 </>
               )}
@@ -133,7 +132,8 @@ const Details = (props) => {
             )}
             {props.page === "services" && (
               <Wrapper
-                bg="#16a092"
+                bg="transparent"
+                border="2px solid white"
                 className="w-100 p-5 h-100 d-flex justify-content-center align-items-center"
               >
                 <div>

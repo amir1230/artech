@@ -11,7 +11,7 @@ const ColIndus = styled.div`
   box-shadow: 0 1px 1px rgba(0, 0, 0, 0.3);
   color: #fff;
   text-align: center;
-  border: var(--primary-color) 2px solid;
+  border: #fff 2px solid;
   cursor: pointer;
   transition: 0.5s ease-in-out;
   &:hover {

@@ -144,7 +144,7 @@ const H3Extra = styled(H3)`
     bottom: -15px;
     height: 3px;
     width: 50px;
-    background: #16a092;
+    background: #fff;
   }
 `;
 const ContactData = [
@@ -171,7 +171,7 @@ const ContactData = [
 //   "fa-brands fa-youtube",
 // ];
 const LinksData = [
-  "Our Team",
+  // "Our Team",
   "About Us",
   // "Our Gallery",
   // "Selection Process",
@@ -204,7 +204,7 @@ const Footer = () => {
                       <Wrapper mt={isResponsive && "1rem"}>
                         <i
                           style={{
-                            color: "#16a092",
+                            color: "#fff",
                             fontSize: "30px",
                             float: "left",
                             marginTop: "8px",
@@ -367,7 +367,7 @@ const Footer = () => {
                 <div className="copyright-text">
                   <P m="0px" size="14px" color="#fff">
                     Copyright &copy; 2024, All Right Reserved{" "}
-                    <a style={{ color: "#16a092" }} href="#a">
+                    <a style={{ color: "#fff" }} href="#a">
                       AR Tech
                     </a>
                   </P>

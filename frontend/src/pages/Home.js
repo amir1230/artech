@@ -39,7 +39,7 @@ const IndustryData = [
 const ServiceCardsData = [
   {
     src: blockchain,
-    title: "Blockchain Web3",
+    title: "Digital Marketing",
     desc: "Empower your business with secure and transparent decentralized solutions for seamless transaction management.",
   },
   {
@@ -64,7 +64,7 @@ const ServiceCardsData = [
   },
   {
     src: iot,
-    title: "Internet of things",
+    title: "App Development",
     desc: "Connect and control devices seamlessly, enabling smarter operations and unlocking new possibilities for automation.",
   },
 ];
@@ -84,7 +84,7 @@ const Home = () => {
       <Wrapper bg="black">
         <Wrapper className="container" data-aos="fade-down">
           <Wrapper
-            color="#16a092"
+            color="#fff"
             ls="1px"
             weight="600"
             pt="3rem"
