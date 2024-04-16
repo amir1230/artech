@@ -82,7 +82,7 @@ const Card = styled.div`
   transition: 0.5s;
 
   &:hover {
-    background: rgb(240, 124, 92);
+    background: rgb(255, 69, 51);
     background-position: 0 100%;
     h3 {
       color: #ffffff;
