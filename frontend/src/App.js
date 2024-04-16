@@ -72,7 +72,7 @@ const App = () => {
               rootElement={document.getElementById("root")}
               text="Click here to schedule!"
               textColor="#ffffff"
-              color="#16a092"
+              color="rgb(255, 69, 51)"
             />
           </Wrapper>
         </Wrapper>
