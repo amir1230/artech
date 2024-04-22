@@ -160,7 +160,7 @@ const ContactData = [
   },
   {
     title: "Email",
-    desc: "info@artech.org",
+    desc: "info@artechsolutions.org",
     icon: "far fa-envelope-open",
   },
 ];
