@@ -14,6 +14,7 @@ var transporter = nodemailer.createTransport({
     pass: process.env.password,
   },
 });
+console.log(process.env.email);
 app.get("/", (req, res) => {
   res.send("Hello from server");
 });
@@ -21,11 +22,13 @@ app.post("/contact", (req, res) => {
   try {
     const { name, subject, message, email } = req.body.contactData;
     if (name && subject && message && email) {
+      console.log("This is email ", email);
+      
       var mailOptions = {
         from: email,
         to: process.env.email,
-        subject: subject,
-        text: message,
+        subject: `${subject}`,
+        text: `an email from ${email} ${message}`,
       };
       transporter.sendMail(mailOptions, function (error, info) {
         if (error) {
@@ -33,6 +36,7 @@ app.post("/contact", (req, res) => {
           res.status(400).json({ message: "Unknown Error" });
         } else {
           console.log("Email sent: " + info.response);
+
           res.status(200).json({ message: "Messgage Succesfully Sended" });
         }
       });
@@ -40,6 +44,7 @@ app.post("/contact", (req, res) => {
       res.status(400).json({ message: "Insufficient Details" });
     }
   } catch (e) {
+    console.log(e);
     res.status(400).json({ message: "Unknown Error" });
   }
 });
