@@ -32,7 +32,6 @@ app.post("/contact", (req, res) => {
           console.log(error);
           res.status(400).json({ message: "Unknown Error" });
         } else {
-          console.log("Email sent: " + info.response);
           res.status(200).json({ message: "Messgage Succesfully Sended" });
         }
       });
@@ -45,5 +44,5 @@ app.post("/contact", (req, res) => {
 });
 const port = process.env.PORT;
 app.listen(port, () => {
-  console.log(`Listening to PORT=>${port}`);
+
 });
