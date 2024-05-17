@@ -193,7 +193,7 @@ const CareerOpenings = () => {
           message: valuesInput.message,
         };
         const res = await axios.post(
-          "http://localhost:8000/contact",
+          "http://localhost:3000/contact",
           { contactData },
           config
         );
