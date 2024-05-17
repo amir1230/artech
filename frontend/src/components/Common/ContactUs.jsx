@@ -87,7 +87,10 @@ const ContactUs = () => {
           "http://localhost:3002/contact",
           { contactData },
           config
+          
         );
+
+        console.log(res.status)
         if (res.status === 200) {
           setLoading(false);
           toast.success("Mail Sent Sucessfully!", {
