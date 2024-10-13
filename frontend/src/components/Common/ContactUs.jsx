@@ -84,7 +84,7 @@ const ContactUs = () => {
           },
         };
         const res = await axios.post(
-          "http://localhost:8000/contact",
+          "http://localhost:8081/contact",
           { contactData },
           config
           
