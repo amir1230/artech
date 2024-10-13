@@ -155,7 +155,7 @@ const ContactData = [
   // },
   {
     title: "Contact",
-    desc: <span>+92 324-5971343 <br></br> +92 336 8815559</span>,
+    desc: <span>+92 324-5971343 <br></br> +92 313 8860165</span>,
     icon: "fas fa-phone"
   },
   {
