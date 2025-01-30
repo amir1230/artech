@@ -48,9 +48,9 @@ const CoreValues = () => {
       bg="#F7F5FB"
     >
       <Wrapper className="text-center">
-        <H1 weight="600" ls="1px">
+        {/* <H1 weight="600" ls="1px">
           Meet The Team
-        </H1>
+        </H1> */}
       </Wrapper>
       <Wrapper pl={"4%"} pt="5%">
         <Container>
