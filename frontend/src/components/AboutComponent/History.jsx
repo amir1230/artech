@@ -18,13 +18,13 @@ const History = () => {
               <div className="fs-1 text-white fw-bold" data-aos="fade-right">Our History</div>
               <div className="fs-2  text-white pt-3" data-aos="flip-up">2010-2017</div>
               <div className="text-white pt-3">
-                AR tech successfully partners with multiple organization, a growing
+                AlphaHive Ai successfully partners with multiple organization, a growing
                 provider of local Pakistan IT Support and IT Services to both
                 local and overseas businesses.
               </div>
               <div className="fs-2  text-white pt-3" data-aos="flip-up">2018-2023</div>
               <div className="text-white pt-3">
-                AR Tech successfully partners with multiple organization, a growing
+                AlphaHive Ai successfully partners with multiple organization, a growing
                 provider of local Pakistan IT Support and IT Services to both
                 local and overseas businesses.  successfully partners with
                 multiple organization, a growing provider of local Pakistan IT

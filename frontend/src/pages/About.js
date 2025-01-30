@@ -17,7 +17,7 @@ const About = () => {
     <>
       <Hero
         bg="https://www.capgemini.com/de-de/wp-content/uploads/sites/8/2022/08/GettyImages-1181008199.jpg"
-        extra="AR Tech"
+        extra="Alphahive Ai"
         title="About us"
         // desc=" Proudly serving the world's top asset finance and leasing companies with smart software technology for over four decades."
         contact={true}

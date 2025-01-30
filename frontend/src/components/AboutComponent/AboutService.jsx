@@ -50,10 +50,10 @@ const AboutService = () => {
             />
             <Wrapper>
               <H3 className="mt-3" size="31px" ls="1px" weight="600">
-                Why AR Tech?
+                Why AlphaHive Ai?
               </H3>
               <P color="gray" size="16px" weight="500" className="mt-4">
-                AR Tech has the expertise and resources required to design,
+                AlphaHive Ai has the expertise and resources required to design,
                 develop and manage the highly available and highly secure
                 technology platform that you need, giving you the time and
                 confidence to focus on running your business.

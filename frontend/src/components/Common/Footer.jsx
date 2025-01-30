@@ -153,14 +153,14 @@ const ContactData = [
   //   desc: "address will be pasted here...",
   //   icon: "fas fa-map-marker-alt",
   // },
-  {
-    title: "Contact",
-    desc: <span>+92 324-5971343 <br></br> +92 313 8860165</span>,
-    icon: "fas fa-phone"
-  },
+  // {
+  //   title: "Contact",
+  //   desc: <span>+92 324-5971343 <br></br> +92 313 8860165</span>,
+  //   icon: "fas fa-phone"
+  // },
   {
     title: "Email",
-    desc: "info@artechsolutions.org",
+    desc: "info@alphahiveai.com",
     icon: "far fa-envelope-open",
   },
 ];
@@ -368,7 +368,7 @@ const Footer = () => {
                   <P m="0px" size="14px" color="#fff">
                     Copyright &copy; 2024, All Right Reserved{" "}
                     <a style={{ color: "#fff" }} href="#a">
-                      AR Tech
+                      AlphaHive Ai
                     </a>
                   </P>
                 </div>

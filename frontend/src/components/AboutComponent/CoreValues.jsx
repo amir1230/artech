@@ -54,7 +54,7 @@ const CoreValues = () => {
       </Wrapper>
       <Wrapper pl={"4%"} pt="5%">
         <Container>
-          <Wrapper
+          {/* <Wrapper
             height="100%"
             className={`d-flex flex-column justify-content-center gap-3 flex wrap`}
           >
@@ -115,7 +115,7 @@ const CoreValues = () => {
                 );
               })}
             </Wrapper>
-          </Wrapper>
+          </Wrapper> */}
         </Container>
       </Wrapper>
     </Wrapper>

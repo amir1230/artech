@@ -44,7 +44,7 @@ const Details = (props) => {
                 <>
                  
                   Revolutionize your brand's presence - By
-                  <SpanWrapper weight="600">AR tech</SpanWrapper>
+                  <SpanWrapper weight="600">AlphaHive Ai</SpanWrapper>
                 </>
               )}
               {props.page === "services" && (
